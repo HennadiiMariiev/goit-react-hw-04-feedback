@@ -1,12 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Section from './components/Section/Section';
 import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
 import Statistics from './components/Statistics/Statistics';
-import styled from 'styled-components';
 import Notification from './components/NotificationComponent/Notification';
 import { StyledApp } from './components/AppComponent/StyledApp';
 
-function App(props) {
+function App() {
   const [good, setGood] = useState(0);
   const [bad, setBad] = useState(0);
   const [neutral, setNeutral] = useState(0);
