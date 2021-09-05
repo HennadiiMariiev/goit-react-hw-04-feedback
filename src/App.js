@@ -4,6 +4,7 @@ import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
 import Statistics from './components/Statistics/Statistics';
 import Notification from './components/NotificationComponent/Notification';
 import { StyledApp } from './components/AppComponent/StyledApp';
+import { useEffect } from 'react/cjs/react.development';
 
 function App() {
   const [good, setGood] = useState(0);
